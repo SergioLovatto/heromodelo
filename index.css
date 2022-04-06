@@ -1,0 +1,69 @@
+body {
+    background-color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.6;
+    font-size: 16px;
+    color: white; }
+.contenedor {
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.parrafo {
+    width: 50%;
+    height: 40%;
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+  
+    
+}
+.texto { display: flex;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;}
+.botones {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+
+}
+button {
+    
+    height: 45px;
+    width: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.6;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+   
+    }
+    .boton2 {
+        background-color: white;
+        color: purple;
+    }
+.imagen {
+    background-image: url("./helo.png");
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
